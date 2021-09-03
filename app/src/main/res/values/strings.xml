@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RandomPics</string>
+
+    <string name="load_more">Load More</string>
+    <string name="refresh">Refresh</string>
+    <string name="picture">Picture</string>
+    <string name="random_pics">RandomPics</string>
+    <string name="picture_info">Picture #%1$s Info</string>
+    <string name="hashed_id">#%1$s</string>
+
+    <string name="id">          Id:       #%1$s</string>
+    <string name="author">      Author:   %1$s</string>
+    <string name="size">        Size:     %1$s×%2$s</string>
+    <string name="download_url">Download: %1$s</string>
+
+
+
+</resources>

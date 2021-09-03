@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/PictureListFragment">
+
+    <fragment
+        android:id="@+id/PictureListFragment"
+        android:name="com.example.randompics.ui.fragment.PictureListFragment"
+        tools:layout="@layout/fragment_picture_list">
+
+        <action
+            android:id="@+id/action_PictureListFragment_to_PictureDetailsFragment"
+            app:destination="@id/PictureDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PictureDetailsFragment"
+        android:name="com.example.randompics.ui.fragment.PictureDetailsFragment"
+        tools:layout="@layout/fragment_picture_details">
+
+        <argument
+            android:name="id"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null"/>
+        <argument
+            android:name="author"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null"/>
+        <argument
+            android:name="width"
+            app:argType="integer"/>
+        <argument
+            android:name="height"
+            app:argType="integer"/>
+        <argument
+            android:name="download_url"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null"/>
+
+    </fragment>
+</navigation>

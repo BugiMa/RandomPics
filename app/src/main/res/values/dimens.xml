@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="loading_card_corner_radius">64dp</dimen>
+
+    <dimen name="progress_bar_margin">16dp</dimen>
+
+    <dimen name="text_view_margin_normal">16dp</dimen>
+    <dimen name="text_view_margin_small">8dp</dimen>
+
+    <dimen name="text_size_picture_title">24sp</dimen>
+    <dimen name="text_size_picture_details">15sp</dimen>
+</resources>
